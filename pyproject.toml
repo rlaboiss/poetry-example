@@ -12,6 +12,11 @@ packages = [
 [tool.poetry.dependencies]
 python = "^3.8"
 
+[tool.autopub]
+project-name = "Poetry Example"
+git-username = "rlaboiss"
+git-email = "rafael@laboissiere.net"
+
 
 [build-system]
 requires = ["poetry-core"]
